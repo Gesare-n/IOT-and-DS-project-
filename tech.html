@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilimo 360 - System Stats</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(144, 238, 144, 0.3); /* Very faded light green */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center contents horizontally */
+            min-height: 100vh;   /* Ensure the body takes full height */
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        #data {
+            display: flex;
+            justify-content: space-around; /* Distributes space evenly */
+            align-items: center;           /* Centers circles vertically */
+            max-width: 800px;
+            margin: 0 auto;
+            flex-wrap: nowrap;            /* Prevents wrapping */
+        }
+        .circle {
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 189px; /* Set to approx. 5 cm */
+            height: 189px; /* Set to approx. 5 cm */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            text-align: center;
+        }
+        .value {
+            font-weight: bold;
+            color: #4CAF50;
+            font-size: 1.5em;
+        }
+        .label {
+            font-size: 1.2em; /* Larger than value */
+            color: #006400;   /* Dark green */
+            margin-bottom: 5px;
+        }
+        @media (max-width: 600px) {
+            #data {
+                flex-direction: column;
+                align-items: center;
+            }
+            .circle {
+                width: 150px; /* Adjusted for smaller screens */
+                height: 150px; /* Adjusted for smaller screens */
+            }
+        }
+        img {
+            max-width: 100%; /* Ensures the image is responsive */
+            height: auto;    /* Maintains aspect ratio */
+            display: block;  /* Ensures it's treated as a block element */
+            margin: 20px auto; /* Centers it horizontally */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kilimo 360- System stats</h1>
+    </header>
+    <div id="data">
+        <div class="circle">
+            <div class="label">Temperature</div>
+            <div id="temperature" class="value"></div>
+        </div>
+        <div class="circle">
+            <div class="label">Water Level</div>
+            <div id="water" class="value"></div>
+        </div>
+        <div class="circle">
+            <div class="label">Humidity</div>
+            <div id="humidity" class="value"></div>
+        </div>
+        <div class="circle">
+            <div class="label">Moisture</div>
+            <div id="moisture" class="value"></div>
+        </div>
+    </div>
+    
+    <!-- Image at the bottom center -->
+    <img src="/photo.jpg" alt="Sample Project Image">
+
+    <script>
+        function fetchData() {
+            $.get('/data', function(data) {
+                $('#temperature').text(data.temperature);
+                $('#water').text(data.water);
+                $('#humidity').text(data.humidity);
+                $('#moisture').text(data.moisture);
+            });
+        }
+
+        setInterval(fetchData, 1000);  // Fetch data every second
+        fetchData();  // Initial fetch
+    </script>
+</body>
+</html>
