@@ -1,6 +1,6 @@
 🌱 KILIMO 360 - Smart Urban Irrigation System
 
-KILIMO 360 is a low-cost, IoT-based smart irrigation system designed for urban farmers and gardeners. It enables real-time environmental monitoring, water conservation, and remote plant care using affordable hardware and SMS alerts—no internet required.
+KILIMO 360 is a low-cost, IoT-based smart irrigation system designed for urban farmers and gardeners. It enables real-time environmental monitoring, water conservation, and remote plant care using affordable hardware and SMS alerts.
 
 ---
 
