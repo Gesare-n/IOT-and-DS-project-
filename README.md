@@ -54,7 +54,7 @@ KILIMO 360 is a low-cost, IoT-based smart irrigation system designed for urban f
 
 - **Hardware**: ESP32, DHT11, Soil Moisture Sensor, Water Level Sensor, GSM Module
 - **Software**: Arduino IDE, Firebase / Web dashboard (HTML/CSS/JS), SMS Gateway
-- **Tools**: VS Code, Fritzing (for circuit design)
+- **Tools**: VS Code, Proteus  (for circuit design)
 
 ---
 
@@ -68,6 +68,16 @@ KILIMO 360 is a low-cost, IoT-based smart irrigation system designed for urban f
 
 ## Presentation :https://docs.google.com/presentation/d/1DTXmUliE2W9MsMNLYKGgXjA95SJFWGgfsNCl9eUVAR0/edit?usp=sharing
 ---
+## Images 
+![image](https://github.com/user-attachments/assets/c71d3590-9b45-4880-88f8-5929e01a364a)
+![image](https://github.com/user-attachments/assets/5d239a46-120e-4dd0-bfcd-e8a48a59fd53)
+![image](https://github.com/user-attachments/assets/08d099f0-8c3e-457b-a887-a5826de6c72e)
+![WhatsApp Image 2025-04-10 at 09 32 15_01ef47d1](https://github.com/user-attachments/assets/a21afc8c-d76b-45ac-8d1f-8ac018bd5e8d)
+
+![WhatsApp Image 2025-04-08 at 14 15 46_372607bf](https://github.com/user-attachments/assets/294c9a41-c780-4350-9c73-c8ee4266efcb)
+
+
+
 
 > “Smart farming is not just the future—it’s a necessity. KILIMO 360 makes it accessible today.”
 
