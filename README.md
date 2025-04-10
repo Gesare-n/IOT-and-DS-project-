@@ -75,6 +75,12 @@ KILIMO 360 is a low-cost, IoT-based smart irrigation system designed for urban f
 ![WhatsApp Image 2025-04-10 at 09 32 15_01ef47d1](https://github.com/user-attachments/assets/a21afc8c-d76b-45ac-8d1f-8ac018bd5e8d)
 ![WhatsApp Image 2025-04-10 at 09 35 50_218caad2](https://github.com/user-attachments/assets/3664e001-097a-48eb-b392-6c0a0753b828)
 
+## Videos 
+SMS sent: https://drive.google.com/file/d/1gaQOEhk2FUmAwSwOX0BMdqh36sDdJWfj/view?usp=sharing
+Arduino IDE : https://drive.google.com/file/d/1ND2zauGczfYP2fVS9diVJ3zDOg660f7M/view?usp=sharing
+Firebase Video : https://drive.google.com/file/d/1ND2zauGczfYP2fVS9diVJ3zDOg660f7M/view?usp=sharing
+     
+
 
 
 
