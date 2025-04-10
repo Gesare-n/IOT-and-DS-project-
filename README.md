@@ -61,7 +61,7 @@ KILIMO 360 is a low-cost, IoT-based smart irrigation system designed for urban f
 ## 🧠 Team
 
 - Lead : [Nicole Onyiego]
-- Collaborators: [Andrew Nduba , Peter Wachira , Glory Kendi , Sarah Pilot , Valentine Rotich , Kelvin Mutembei , Bethuel Kiptoo , Dennilson Osango, Raphael Wahome]
+- [Andrew Nduba , Peter Wachira , Glory Kendi , Sarah Pilot , Valentine Rotich , Kelvin Mutembei , Bethuel Kiptoo , Dennilson Osango, Raphael Wahome]
 - Institution: [Dedan Kimathi University of Technology]
 
 ---
