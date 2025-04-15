@@ -34,12 +34,12 @@ const char* firebaseAuth = "I0lYJbjuIVoShoUGbIBWDCyMXJWKdc2ChHDcotVb";
 
 DHT dht(DHTPIN, DHTTYPE);
 
-// Alert thresholds
-#define MOISTURE_THRESHOLD 5000
-#define WATER_THRESHOLD 1500
-#define TEMP_HIGH_THRESHOLD 20.0   // in °C
-#define TEMP_LOW_THRESHOLD 10.0
-#define HUMIDITY_LOW_THRESHOLD 70.0  // in %
+// Alert thresholds (The thresholds were selected for demonstration purposes.)
+#define MOISTURE_THRESHOLD 5000   // 3000 for practical situations
+#define WATER_THRESHOLD 1500    // 1000 for practical situations
+#define TEMP_HIGH_THRESHOLD 20.0   // 35 for practical situationsin. (°C)
+#define TEMP_LOW_THRESHOLD 10.0    //15 for practical situations. (°C)
+#define HUMIDITY_LOW_THRESHOLD 70.0   // 40 for practical situations. (in %)
 
 bool alertSent = false;
 
